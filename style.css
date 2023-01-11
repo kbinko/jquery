@@ -11,6 +11,10 @@ body {
     font-size: 50px;
 }
 
+ul {
+    list-style: none;
+}
+
 section {
     border: 1px solid #ffffff;
     border-radius: 5px;
@@ -18,17 +22,16 @@ section {
     padding: 10px;
 }
 
-
-/* button {
+button {
     background-color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 5px;
     color: #424242;
-    font-size: 20px;
+    font-size: 10px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
-} */
+}
 
 button:hover {
     background-color: #424242;
@@ -38,12 +41,15 @@ button:hover {
 #box {
     width: 200px;
     height: 200px;
-    background-color: #7a7a7a;
     margin: 50px auto;
-    transition: all 0.5s;
+    border: 1px solid white;
 }
 
 .box {
     width: 300px;
     height: 300px;
+}
+
+.red {
+    background-color: red;
 }
